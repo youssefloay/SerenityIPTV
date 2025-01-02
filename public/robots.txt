@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.serenityiptv.store/
+Sitemap: https://serenityiptv.store/sitemap.xml
