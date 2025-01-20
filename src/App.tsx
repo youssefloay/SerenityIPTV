@@ -7,6 +7,7 @@ import Packages from './components/Packages';
 import Features from './components/Features';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import { FloatingButtons } from './components/FloatingButtons';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <FAQ />
       <Footer />
+      <FloatingButtons />
     </div>
   );
 }
