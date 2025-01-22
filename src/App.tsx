@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       <Hero />
       <PremiumChannels />
-      <ChannelCategories />
       <Packages />
+      <ChannelCategories />
       <Features />
       <FAQ />
       <Footer />

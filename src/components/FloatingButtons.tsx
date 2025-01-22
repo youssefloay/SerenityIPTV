@@ -8,7 +8,7 @@ export function FloatingButtons() {
 
   const handleTrialRequest = () => {
     const message = encodeURIComponent(
-      "Hello! I'd like to request a 24-hour free trial of your IPTV service. Please provide me with test credentials."
+      "Hello! I'd like to request a free trial of your IPTV service. Please provide me with test credentials."
     );
     window.open(`https://wa.me/+201557946464?text=${message}`, '_blank');
   };
