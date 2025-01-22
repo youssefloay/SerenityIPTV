@@ -42,6 +42,23 @@ export default function Footer() {
           <p className="mt-2 text-blue-300/80 text-sm">
             Disclaimer: We are not responsible for the content provided through the IPTV service.
           </p>
+          <p className="mt-6 text-sm text-blue-300">
+            Website created by{' '}
+            <a
+              href="https://youssefloayportfolio.vercel.app/"
+              className="underline text-blue-400 hover:text-blue-500 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Youssef Loay
+            </a>. Need a custom website?{' '}
+            <a
+              href="mailto:youssefloay@gmail.com"
+              className="underline text-blue-400 hover:text-blue-500 transition-colors"
+            >
+              Contact me
+            </a> for inquiries.
+          </p>
         </div>
       </div>
     </footer>
