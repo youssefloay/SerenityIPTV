@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ChannelCategories from './components/ChannelCategories';
@@ -11,17 +12,34 @@ import { FloatingButtons } from './components/FloatingButtons';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <Hero />
-      <PremiumChannels />
-      <Packages />
-      <ChannelCategories />
-      <Features />
-      <FAQ />
-      <Footer />
-      <FloatingButtons />
-    </div>
+    <>
+      {/* Add Google Analytics scripts with Helmet */}
+      <Helmet>
+        {/* Google Analytics script */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJWFPR4W3D"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-QJWFPR4W3D');
+          `}
+        </script>
+      </Helmet>
+      
+      {/* App components */}
+      <div className="min-h-screen bg-white">
+        <Navbar />
+        <Hero />
+        <PremiumChannels />
+        <Packages />
+        <ChannelCategories />
+        <Features />
+        <FAQ />
+        <Footer />
+        <FloatingButtons />
+      </div>
+    </>
   );
 }
 
