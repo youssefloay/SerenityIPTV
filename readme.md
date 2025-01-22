@@ -3,6 +3,8 @@
 
 Serenity IPTV is an open-source IPTV streaming platform built to provide users with access to a variety of live television channels through the internet. The platform is easy to set up and supports a wide range of IPTV formats.
 
+https://serenityiptv.store
+
 ## Features
 
 - Live IPTV channel streaming.
