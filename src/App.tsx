@@ -13,7 +13,7 @@ import { FloatingButtons } from './components/FloatingButtons';
 function App() {
   return (
     <>
-      {/* Add Google Analytics scripts with Helmet */}
+      {/* Add Google Analytics and AdSense scripts with Helmet */}
       <Helmet>
         {/* Google Analytics script */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJWFPR4W3D"></script>
@@ -25,8 +25,15 @@ function App() {
             gtag('config', 'G-QJWFPR4W3D');
           `}
         </script>
+
+        {/* Google AdSense script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2707247862454537"
+          crossOrigin="anonymous"
+        ></script>
       </Helmet>
-      
+
       {/* App components */}
       <div className="min-h-screen bg-white">
         <Navbar />
@@ -38,6 +45,23 @@ function App() {
         <FAQ />
         <Footer />
         <FloatingButtons />
+
+        {/* Example AdSense placeholder */}
+        <div className="ads-container my-4">
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-2707247862454537"
+            data-ad-slot="1234567890"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>
+            {`
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            `}
+          </script>
+        </div>
       </div>
     </>
   );
