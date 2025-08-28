@@ -2,8 +2,8 @@ export const packages = [
   {
     duration: '1 Month',
     price: {
-      egp: '175 EGP',
-      usd: 5.00
+      usd: 5.00,
+      egp: 'Starting from 175 EGP'
     },
     popular: false,
     features: [
@@ -16,8 +16,8 @@ export const packages = [
   {
     duration: '3 Months',
     price: {
-      egp: '400 EGP',
-      usd: 11.00
+      usd: 11.00,
+      egp: 'Starting from 400 EGP'
     },
     popular: false,
     features: [
@@ -31,8 +31,8 @@ export const packages = [
   {
     duration: '6 Months',
     price: {
-      egp: '600 EGP',
-      usd: 18.00
+      usd: 18.00,
+      egp: 'Starting from 600 EGP'
     },
     popular: false,
     features: [
@@ -41,14 +41,14 @@ export const packages = [
       'Video on Demand',
       'Multi-device Support',
       'Priority Support',
-      'Extra Connection',
+      
     ],
   },
   {
     duration: '1 Year',
     price: {
-      egp: '1000 EGP',
-      usd: 28.00
+      usd: 28.00,
+      egp: 'Starting from 1000 EGP'
     },
     popular: true,
     features: [
@@ -57,7 +57,7 @@ export const packages = [
       'Video on Demand',
       'Multi-device Support',
       'Priority Support',
-      '2 Extra Connections',
+      
     ],
   },
 ];
